@@ -6,7 +6,7 @@ Graphql &amp; ExpressJs
 {
   all {
     name
-		picture
+    picture
   }
   byA: search(wildcard:"a"){
    _id
