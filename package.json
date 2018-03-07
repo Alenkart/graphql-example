@@ -2,7 +2,8 @@
   "dependencies": {
     "express": "^4.16.2",
     "express-graphql": "^0.6.12",
-    "graphql": "^0.13.1"
+    "graphql": "^0.13.1",
+    "mongoose": "^5.0.9"
   },
   "name": "graphql-example",
   "version": "1.0.0",

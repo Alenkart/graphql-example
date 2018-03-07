@@ -1,8 +1,12 @@
-const express = require('express');
-const graphqlHTTP = require('express-graphql');
-const { buildSchema } = require('graphql');
+require('./lib/utils/mongoose');
 
-const data = require('./data');
+const Person = require('./lib/models/Person');
+
+const express = require('express');
+const { buildSchema } = require('graphql');
+const graphqlHTTP = require('express-graphql');
+
+const data = require('./lib/data');
 
 // Construct a schema, using GraphQL schema language
 const schema = buildSchema(`
@@ -41,21 +45,86 @@ const schema = buildSchema(`
 
 // The root provides a resolver function for each API endpoint
 const root = {
-  all: () => {
-  	return data;
+  all: async () => {
+
+    try {
+
+      const persons = await Person.find({});
+      return persons;
+
+    } catch(e) {
+
+      console.log(e);
+      return [];
+    }
+
   },
-  balanceHigherThan: ({ balance }) => {
-    return data.filter(d => {
-    	const dBalance = d.balance.replace(/[^\d.]/g,'');
-    	return dBalance > balance;
-    });
+  balanceHigherThan: async ({ balance }) => {
+
+    try {
+
+      const persons = await Person.find({});
+
+      return persons.filter(d => {
+        const dBalance = d.balance.replace(/[^\d.]/g,'');
+        return dBalance > balance;
+      });
+
+    } catch (e) {
+
+      return [];
+    }
+
   },
-  search: ({ wildcard }) => {
-    return data.filter(d => d.name.includes(wildcard));
+  search: async ({ wildcard }) => {
+
+    try {
+
+      const persons = await Person.find({});
+
+      return persons.filter(d => d.name.includes(wildcard));
+
+    } catch (e) {
+
+      return [];
+    }
+
   },
 };
 
 const app = express();
+
+app.set('json spaces', 2);
+
+app.get('/person', (req, res, next) => {
+
+	Person.find({}, (err, docs) => {
+
+    if(err) {
+      return res.send(err);
+    } else if(docs !== undefined && docs.length > 0) {
+			return res.json(docs);
+		}
+
+    next();
+
+	});
+
+});
+
+app.get('/person', (req, res) => {
+
+    const persons = data.map(person => {
+      delete person._id;
+      return person;
+    });
+
+    Person.insertMany(persons, function(err, docs) {
+      if(err) return res.send(err);
+      res.redirect('/person');
+    });
+
+});
 
 app.use('/graphql', graphqlHTTP({
   schema: schema,
