@@ -1,0 +1,227 @@
+[
+  {
+    "_id": "5aa000a32d153570cd02c988",
+    "index": 0,
+    "guid": "05c356d3-75db-45ea-bb96-2b02b8d53acb",
+    "isActive": true,
+    "balance": "$2,789.22",
+    "picture": "http://placehold.it/32x32",
+    "age": 28,
+    "eyeColor": "green",
+    "name": "Moss Kennedy",
+    "gender": "male",
+    "company": "EYEWAX",
+    "email": "mosskennedy@eyewax.com",
+    "phone": "+1 (951) 529-2765",
+    "address": "133 Columbia Place, Hilltop, New Jersey, 8513",
+    "about": "Quis ullamco ad est consequat. Fugiat minim do id qui eu cillum anim consectetur aliquip. Esse et excepteur laborum id elit. Pariatur cillum aute anim tempor magna Lorem et sit dolore ea sit irure aute enim. Irure non sunt eiusmod aliquip officia ipsum voluptate. Eu incididunt Lorem ad eiusmod aliqua ipsum incididunt aliqua et reprehenderit. Labore occaecat sunt in culpa.\r\n",
+    "registered": "2014-08-17T12:46:59 +04:00",
+    "latitude": -20.354909,
+    "longitude": 141.007101,
+    "tags": [
+      "officia",
+      "ea",
+      "ullamco",
+      "proident",
+      "reprehenderit",
+      "culpa",
+      "id"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Spears Winters"
+      },
+      {
+        "id": 1,
+        "name": "Wilkerson Sherman"
+      },
+      {
+        "id": 2,
+        "name": "Roslyn Snider"
+      }
+    ],
+    "greeting": "Hello, Moss Kennedy! You have 4 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "5aa000a37d1b30b92eb621e3",
+    "index": 1,
+    "guid": "54f944c4-004c-4b97-a310-9fc53b4fe6b4",
+    "isActive": false,
+    "balance": "$3,902.13",
+    "picture": "http://placehold.it/32x32",
+    "age": 40,
+    "eyeColor": "green",
+    "name": "Beatrice Hartman",
+    "gender": "female",
+    "company": "EPLODE",
+    "email": "beatricehartman@eplode.com",
+    "phone": "+1 (888) 451-3079",
+    "address": "103 Tampa Court, Alleghenyville, Palau, 9739",
+    "about": "Culpa dolor aute duis cillum pariatur aute eiusmod elit. Velit cupidatat in fugiat amet. Pariatur id velit aute anim do ad elit. Sint occaecat aliqua irure veniam ad sunt incididunt mollit adipisicing.\r\n",
+    "registered": "2014-12-14T05:59:42 +04:00",
+    "latitude": 27.879319,
+    "longitude": 35.509621,
+    "tags": [
+      "duis",
+      "aliquip",
+      "nisi",
+      "adipisicing",
+      "sint",
+      "officia",
+      "dolore"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Luisa Rosario"
+      },
+      {
+        "id": 1,
+        "name": "Melody Briggs"
+      },
+      {
+        "id": 2,
+        "name": "Morgan Vinson"
+      }
+    ],
+    "greeting": "Hello, Beatrice Hartman! You have 8 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "5aa000a3816a3593d59a7715",
+    "index": 2,
+    "guid": "98b77427-1ca5-43af-be9b-46ae2771586b",
+    "isActive": true,
+    "balance": "$3,304.95",
+    "picture": "http://placehold.it/32x32",
+    "age": 38,
+    "eyeColor": "brown",
+    "name": "Gay Martinez",
+    "gender": "female",
+    "company": "NUTRALAB",
+    "email": "gaymartinez@nutralab.com",
+    "phone": "+1 (995) 472-3770",
+    "address": "745 Lombardy Street, Grenelefe, Wyoming, 5887",
+    "about": "Enim pariatur et ullamco do ut anim sint enim elit non. Excepteur consectetur labore non fugiat esse ullamco aliqua. Sunt pariatur consectetur reprehenderit id commodo consequat magna fugiat reprehenderit. Et incididunt anim exercitation amet labore sunt aute aliqua est cupidatat sunt nisi mollit adipisicing. Sint aliqua aliquip fugiat proident pariatur amet.\r\n",
+    "registered": "2014-10-31T07:32:19 +04:00",
+    "latitude": 6.095612,
+    "longitude": -149.448857,
+    "tags": [
+      "Lorem",
+      "qui",
+      "in",
+      "dolore",
+      "exercitation",
+      "nulla",
+      "veniam"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Sheryl Walsh"
+      },
+      {
+        "id": 1,
+        "name": "Evelyn Barnett"
+      },
+      {
+        "id": 2,
+        "name": "Lucinda Malone"
+      }
+    ],
+    "greeting": "Hello, Gay Martinez! You have 8 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "5aa000a35f98b54d79343aa5",
+    "index": 3,
+    "guid": "84610000-cfa7-4111-8527-cb9809d91d09",
+    "isActive": true,
+    "balance": "$1,830.65",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "eyeColor": "blue",
+    "name": "Leola Carpenter",
+    "gender": "female",
+    "company": "PUSHCART",
+    "email": "leolacarpenter@pushcart.com",
+    "phone": "+1 (893) 444-3792",
+    "address": "207 Tabor Court, Loma, Louisiana, 2319",
+    "about": "In laboris pariatur ea culpa nisi in. Nulla dolore dolore fugiat laboris mollit anim mollit exercitation proident sit fugiat. Nostrud consectetur quis adipisicing velit commodo dolore reprehenderit in veniam deserunt aliqua.\r\n",
+    "registered": "2015-08-05T06:07:30 +04:00",
+    "latitude": 31.434393,
+    "longitude": -109.007974,
+    "tags": [
+      "labore",
+      "pariatur",
+      "esse",
+      "ad",
+      "enim",
+      "excepteur",
+      "qui"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Barrett Avery"
+      },
+      {
+        "id": 1,
+        "name": "Sabrina French"
+      },
+      {
+        "id": 2,
+        "name": "Phillips Sears"
+      }
+    ],
+    "greeting": "Hello, Leola Carpenter! You have 10 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "5aa000a379d77654dcd1a4a7",
+    "index": 4,
+    "guid": "ae3d0922-c216-4a6b-a967-a7388d606740",
+    "isActive": true,
+    "balance": "$2,235.09",
+    "picture": "http://placehold.it/32x32",
+    "age": 23,
+    "eyeColor": "green",
+    "name": "Maria Harrington",
+    "gender": "female",
+    "company": "TROPOLI",
+    "email": "mariaharrington@tropoli.com",
+    "phone": "+1 (934) 487-3919",
+    "address": "621 Sackett Street, Healy, South Dakota, 6001",
+    "about": "Exercitation duis id quis quis est esse non mollit voluptate. Sunt Lorem sit ut et excepteur nostrud elit qui. Et in deserunt nostrud voluptate eu laborum consequat sunt aliqua tempor dolore ea nulla ullamco.\r\n",
+    "registered": "2015-08-25T06:45:46 +04:00",
+    "latitude": -13.561913,
+    "longitude": 153.239199,
+    "tags": [
+      "laborum",
+      "officia",
+      "dolor",
+      "minim",
+      "voluptate",
+      "laboris",
+      "non"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Wall Bernard"
+      },
+      {
+        "id": 1,
+        "name": "Banks Romero"
+      },
+      {
+        "id": 2,
+        "name": "Rosie Hale"
+      }
+    ],
+    "greeting": "Hello, Maria Harrington! You have 6 unread messages.",
+    "favoriteFruit": "strawberry"
+  }
+]

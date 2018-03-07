@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1"
+  },
+  "name": "graphql-example",
+  "version": "1.0.0",
+  "description": "Graphql example project",
+  "main": "index.js",
+  "author": "Alenkart Rodriguez",
+  "license": "MIT"
+}
