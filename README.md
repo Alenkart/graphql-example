@@ -4,9 +4,15 @@ Graphql &amp; ExpressJs
 ## Query
 ```graphql
 {
+  all {
+    name
+		picture
+  }
   byA: search(wildcard:"a"){
    _id
+    name
     isActive
+    
   }
   byC: search(wildcard:"c"){
     index
